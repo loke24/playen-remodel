@@ -1,0 +1,89 @@
+<div class="venue-search-bar">
+	<div class="select-line-ine">
+		<div class="select-line-outer"  >
+
+			<div id="select-line-inner" class="select-line-inner is-closed" ng-click="gamefun()" style="width:100%">
+				<input type="hidden" value="{{gameActive}}" name="gameValue" ng-model="game" >
+				<div class="active-select select-common">
+					<i class="icon  {{gameActive}}"></i>
+					<span>{{gameActive}}</span>
+				</div>
+				<div class="select-line"></div>
+			</div>
+			<div class="hover-clicked" ng-if="gameOpen">
+				<div id="catogory {{$index}}" class="catogory select-common" ng-repeat="game in games" ng-click="catogoryFunc($index)" tabindex ="1">
+					<i class="icon  {{game}}"></i>
+					<span>{{game}}</span></div>
+
+
+				</div>
+
+
+			</div>
+
+			<div class="select-line-outer"  >
+				<div id="select-line-inner" class="select-line-inner is-closed" ng-click="venuefun()" style="width:100%">
+					<input type="hidden" value="{{venueActive}}" name="venueValue" ng-model="venue">
+					<div class="active-select select-common">
+						<i class="icon  place"></i>
+						<span>{{venueActive}}</span>
+					</div>
+					<div class="select-line"></div>
+				</div>
+				<div class="hover-clicked" ng-if="venueOpen">
+					<div id="catogory {{$index}}" class="catogory select-common" ng-repeat="venue in venues" ng-click="venueSelec($index)">
+						<i class="icon  {{venue}}"></i>
+						<span>{{venue}}</span></div>
+
+
+					</div>
+				</div>
+				<div class="select-line-outer"  >
+					<div id="select-line-inner" class="select-line-inner is-closed" ng-click="timefun()" style="width:100%">
+						<input type="hidden" value="{{timeActive}}" name="timeValue" ng-model="time">
+						<div class="active-select select-common">
+							<i class="icon  timeset"></i>
+							<span>{{timeActive}}</span>
+						</div>
+						<div class="select-line"></div>
+					</div>
+					<div class="hover-clicked" ng-if="timeOpen">
+						<div id="catogory {{$index}}" class="catogory select-common" ng-repeat="time in timings" ng-click="timeSelec($index)">
+							<i class="icon  {{time}}"></i>
+							<span>{{time}}</span></div>
+
+
+						</div>
+
+					</div>
+
+					<div class="select-line-outer"  >
+						<div id="select-line-inner" class="select-line-inner is-closed" ng-click="hourfun()" style="width:100%">
+							<input type="hidden" value="{{hourActive}}" name="hourValue" ng-model="hour">
+							<div class="active-select select-common">
+								<i class="icon  Trophy"></i>
+								<span>{{hourActive}}</span>
+							</div>
+							<div class="select-line"></div>
+						</div>
+						<div class="hover-clicked" ng-if="hourOpen">
+							<div id="catogory {{$index}}" class="catogory select-common" ng-repeat="hour in hours" ng-click="hourSelec($index)">
+								<i class="icon  {{hour}}"></i>
+								<span>{{hour}}</span></div>
+
+
+							</div>
+
+
+						</div>
+
+
+						<div class="book-btn ">
+							<button class="btn book_btn book-btn-modified" ng-click="findvenue()"><h2 style="margin:0;font-size: 20px;">find venue</h2></button>
+						</div>
+
+
+
+
+					</div>
+				</div>

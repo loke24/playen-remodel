@@ -1,0 +1,190 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('font/icomoon.eot?fzcrv4');
+  src:  url('font/icomoon.eot?fzcrv4#iefix') format('embedded-opentype'),
+    url('font/icomoon.ttf?fzcrv4') format('truetype'),
+    url('font/icomoon.woff?fzcrv4') format('woff'),
+    url('font/icomoon.svg?fzcrv4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Baseball-Bat-Ball:before {
+  content: "\e900";
+  color: #0e76f7;
+}
+.Baseball:before {
+  content: "\e901";
+  color: #0e76f7;
+}
+.Basketball-Net:before {
+  content: "\e902";
+  color: #0e76f7;
+}
+.Bike:before {
+  content: "\e903";
+  color: #0e76f7;
+}
+.Billiard-Balls:before {
+  content: "\e904";
+  color: #0e76f7;
+}
+.Billiard-Cue:before {
+  content: "\e905";
+  color: #0e76f7;
+}
+.Bowlingball:before {
+  content: "\e906";
+  color: #0e76f7;
+}
+.Boxing-Glove:before {
+  content: "\e907";
+  color: #0e76f7;
+}
+.Chesspiece:before {
+  content: "\e908";
+  color: #0e76f7;
+}
+.Dart:before {
+  content: "\e909";
+  color: #0e76f7;
+}
+.Darts:before {
+  content: "\e90a";
+  color: #000;
+}
+.Dumbbell:before {
+  content: "\e90b";
+  color: #0e76f7;
+}
+.Football-Helmet:before {
+  content: "\e90c";
+  color: #0e76f7;
+}
+.football:before {
+  content: "\e90d";
+  color: #0e76f7;
+}
+.place:before {
+  content: "\e90e";
+  color: #0e76f7;
+}
+.Heavy-Weights:before {
+  content: "\e90f";
+  color: #0e76f7;
+}
+.Hockey-Court:before {
+  content: "\e910";
+  color: #0e76f7;
+}
+.Hockey-Puck:before {
+  content: "\e911";
+  color: #0e76f7;
+}
+.Hockey-Stick:before {
+  content: "\e912";
+  color: #0e76f7;
+}
+.Iceskate:before {
+  content: "\e913";
+  color: #0e76f7;
+}
+.inline-Skate:before {
+  content: "\e914";
+  color: #0e76f7;
+}
+.Medal:before {
+  content: "\e915";
+  color: #0e76f7;
+}
+.Parachute:before {
+  content: "\e916";
+  color: #0e76f7;
+}
+.badminton:before {
+  content: "\e917";
+  color: #0e76f7;
+}
+.Skateboard:before {
+  content: "\e918";
+  color: #0e76f7;
+}
+.Soccer-Field:before {
+  content: "\e919";
+  color: #0e76f7;
+}
+.soccer:before {
+  content: "\e91a";
+  color: #0e76f7;
+}
+.Sports:before {
+  content: "\e91b";
+  color: #0e76f7;
+}
+.Table-Tennis-Paddle-Ball:before {
+  content: "\e91c";
+  color: #0e76f7;
+}
+.timeset:before {
+  content: "\e91d";
+  color: #0e76f7;
+}
+.Target-Seeker-31:before {
+  content: "\e91e";
+  color: #0e76f7;
+}
+.Tennis:before {
+  content: "\e91f";
+  color: #0e76f7;
+}
+.TennisBall:before {
+  content: "\e920";
+  color: #0e76f7;
+}
+.Trophy:before {
+  content: "\e921";
+  color: #0e76f7;
+}
+.Volleyball:before {
+  content: "\e922";
+  color: #0e76f7;
+}
+.Weights-01:before {
+  content: "\e923";
+  color: #0e76f7;
+}
+.Weights-02:before {
+  content: "\e924";
+  color: #0e76f7;
+}
+.Whistle:before {
+  content: "\e925";
+  color: #0e76f7;
+}
+.Winning-Places:before {
+  content: "\e926";
+  color: #0e76f7;
+}
+.icon-Filled_128px-29:before {
+  content: "\e927";
+  color: #0e76f7;
+}
+.Baseball-Bat-Ball2:before {
+  content: "\e928";
+  color: #0e76f7;
+}

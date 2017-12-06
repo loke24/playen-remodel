@@ -1,0 +1,171 @@
+<div class="middle-search-main">
+	<div class="middle_search">
+		<div class="middle-search-inner container">
+			<div class="cont">
+				<h1>search, book and play</h1>
+				<p style="font-size: 15px;margin: 12px 0 30px 0;">FIND AVAILABLE COURTS NEARBY AND BOOK EASILY</p>
+			</div>
+			<div venue-search></div>
+		</div>
+	</div>
+</div>
+
+
+<div class="site-content whole-padding">
+	<div class=" parallax-effect player-parallax" style="transform:translate3d(0,0,0)">
+		<img src="img/hit.png">
+	</div>
+
+	<div class="container site-content-inner">
+		<h1 style="font-size:33px;">PLAYVEN MAKES BOOKING <br>COURTS EASIER THAN EVER</h1>
+		<p style="margin-top:60px;margin-bottom:40px">Playven is a new service that collects sports <br>facilities in one place to make booking courts easier<br>than ever.<br></p>
+		<p style="margin-bottom:60px">More venues are joining all the time. You can help us<br> spread the joy of sports by telling your favorite club<br>or facility about us. It's really important for us to<br> make playing more sports easier than ever. For this<br> reason Finland's all time most successful tennis pro<br> Jarkko Nieminen joined Playven to support our<br> mission.</p>
+		<div class="book-btn">
+			<button class="btn book_btn"><h2 style="margin:0;font-size: 20px;">join playven</h2></button>
+		</div>
+	</div>
+
+</div>
+<!-- </div> -->
+
+
+
+
+
+
+
+
+
+
+
+<div class="recommended-venue whole-padding">
+
+	<div class="recommended-venue-inner container">
+		<div class="text-line" style="display: inline-flex;margin-bottom: 50px;">
+			<h1 style="font-size:31px;margin:0 44px 0 0">RECOMMENDED VENUES IN INDIA</h1>
+			<div class="line"></div>
+		</div>
+		<div class=" parallax-effect ball-right-parallax" style="transform:translate3d(0,0,0)">
+			<img src="img/circle.svg">
+		</div>
+		<div class="card_flex_main_up" style="display:flex">
+			<div class="arrow left-arrow" ng-click="leftarrow()"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></div>
+			<div class="card_flex_main">
+			<div id="card_flex_main" class="card_flex_main_inner" style="display:flex;">
+			<div class="card_flex " ng-repeat="flex in flexs.cards" >
+				<div class="card_title" >
+					<div style="padding: 12%;margin: 0;">
+						<h4 style="font-size:15px;text-align:center">{{flex.name}}</h4>
+					</div>
+				</div>
+				<div class="card_img">
+					<div class="venue-card-img-main"style="background-image:url('{{flex.imageUrl}}');max-height: 260px;"></div>
+					<!-- <img src="img/venue/mill.jpg" > -->
+				</div>
+				<div class="card_price">
+
+					<p style="margin-top: 20px;font-size: 59px;">{{flex.price}}</p>
+					<div class="book-btn">
+						<button class="btn book_btn"><h2 style="margin:0;font-size: 20px;">book now</h2></button>
+					</div>
+					<div class="info">
+						<a href=""><p style="color: gray;font-size: 17px;">info</p></a>
+					</div>
+				</div>
+
+			</div>
+			</div>
+
+			</div>
+			<div class="arrow right-arrow" ng-click="rightarrow()"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></div>
+		</div>
+
+		<div class=" parallax-effect ball-left-parallax" style="transform:translate3d(0,0,0)">
+			<img src="img/circle.svg">
+		</div>
+	</div>
+
+
+</div>
+
+<div class="book whole-padding">
+	<div class="book_inner">
+		<div class="title_content">			
+			<h1>BOOK FAST, PLAY LONG</h1>
+			<h3>Use your time for what really matters: Play more sports with Playven</h3>
+		</div>
+		<div class="lap">
+			<img src="img/lap.png" style="max-width: 100%;z-index: 1;position:relative">
+
+		</div>
+
+	</div>
+	<div class="search-book container ">
+		<div class="content-inner">
+			<h3>search </h3>	<a href=""><i class="glyphicons glyphicons-chevron-right"></i></a>
+			<p>Find nearby venues in one place.</p>
+		</div>
+		<div class="content-inner">
+			<h3>book</h3>
+			<p>Make a booking by selecting your desired time and court.</p>
+		</div>
+		<div class="content-inner">
+			<h3>pay</h3>
+			<p>Online payments in Playven are fast and secure. By paying online you'll save more time for playing.</p>
+		</div>
+		<div class="content-inner">
+			<h3>play</h3>
+			<p>Use your time for what really matters: do sport that you like with Playven</p>
+		</div>
+
+
+	</div>
+</div>
+
+<div class="online-payment whole-padding">
+	<div class="online-payment-inner container">
+		<div class="payment-content">
+			<div class="payment-content-inner" style="  margin-bottom: 92px;">
+				<h1 style="font-size: 33px;margin-bottom:50px;margin-top:0;padding: 0 60px 0 0;">QUICK AND EASY ONLINE PAYMENTS</h1>
+				<div class="payment-content-p">
+					<p style="margin-bottom:28px">By paying easily and securely online with Playven you save more time for playing.</p>
+					<p>You will not have to stand in lines anymore and you can just focus on playing the sport you love. You don't have to worry about cancellations either, as you will automatically get your money refunded when you cancel within each venue's cancellation policy.</p>
+				</div>
+			</div>
+			<div><button class="btn book_btn"><h2 style="margin:0;font-size: 20px;" ng-click="findvenue()">join playven</h2></button></div>
+		</div>
+		<div class="img-con">
+			<img src="img/price.jpg">
+
+		</div>
+
+
+
+	</div>
+
+
+
+
+</div>
+<div class="download whole-padding" >
+	<div class="download-inner container" style="display:flex">
+		<div class="mobile-img">
+			<img src="img/mobile.png">
+		</div>
+		<div class="download-content">
+			<h1 style="font-size: 33px;margin-bottom:50px;margin-top:0;">DOWNLOAD THE APP FOR THE BEST MOBILE EXPERIENCE</h1>
+			<p>With the new Playven Mobile App (available on Android & iPhone) you can create bookings and manage them easier than ever on mobile.</p>
+			<div class="btn-store" style="display:flex">
+				<div class="appstore download-btn">
+					<img src="img/appstore.png">
+
+				</div>
+
+				<div class="playstore download-btn">
+					<img src="img/googleplay.png">
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,132 @@
+<html>
+<head>
+	<title>playven</title>
+	<base href="/"></base>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/angular-material/angular-material.css">
+	<link rel="stylesheet" type="text/css" href="main.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="icon-style.css">
+</head>
+<body ng-app="playven" ng-controller="controller">
+	<div class="main_class">
+		<header>
+		<div class="navigation" style="background-color:#0e76f7" >
+			<div class="main_inner container" >
+
+				<div class="navbar navbar-top" style="background-color:#0e76f7;margin-top:20px">
+					<div class="navbar-header" style="display:inline-block" ui-sref="landingpage"><img style="margin: 0px 20 0px 20;height:32px;" src="img/logo-white.png" ></div>
+					<ul class="nav navbar-nav nav-icon">
+						<li><button  class="btn" ui-sref="venue({game,venue})" href=""><p>venue</p></button></li>
+						<li><button  class="btn" ui-sref="VeDetails"><p>Help</p></button></li>
+						<li><button  class="btn" ui-sref="profile"><p>Sales</p></button></li>
+						<li>
+							<div style="display:flex">
+								<div class="btn lang" style="border-radius: 15px 0 0 15px;"><p>India</p></div>
+								<div style="width:1px;background-color:#FFF;opacity:0.8"></div>
+								<div class="btn lang" style="border-radius: 0px 15px 15px 0px;"><p>English</p></div>							</div>
+							</li>
+							<li>
+								<div class="search-bar" style=" margin-left:20px;position:relative">
+									<i class="glyphicon glyphicon-search" style="position: absolute;right: 10px;top: 10px;z-index: 1;color:white;opacity:0.7;font-weight: 800;"></i>
+									<input id="search-bar" type="text" class="form-control" placeholder="search" style="background-color: #2584f7;border-radius: 25px; border: 0;color:#FFF;width:267px;position:relative;padding-right: 28px;">
+
+								</div>
+
+
+							</li>
+							<li ng-if="isloggedin()"><button class="btn"  ui-sref="profile"><p>{{username}}</p></button></li>
+							<li>
+								<button  class="btn" ng-click ="login()" ng-if="!isloggedin()"  >
+									<div style="display: inline-flex;" >
+										<i class="glyphicon glyphicon-user" style="margin-right: 6px;margin-top: 2px;font-size: 17px;color: white;"></i>
+										<p>Log in</p>
+									</div>	
+									
+
+								</button>
+								<button  class="btn" ng-click="logout()" ng-if="isloggedin()"   >
+									<div style="display: inline-flex;" >
+										<i class="glyphicon glyphicon-user" style="margin-right: 6px;margin-top: 2px;font-size: 17px;color: white;"></i>
+										<p>Log out</p>
+									</div>	
+									
+
+								</button>
+
+
+							</li>
+							<li ng-if="!isloggedin()"><p style="margin-top:7px">OR</p></li>
+							<li ng-if="!isloggedin()"><button  class="btn" ng-click="signin()"><p>Register</p></button></li>
+						</ul>	
+
+
+
+					</div>
+				</div>
+
+				
+			</div>
+		</header>
+		<div ui-view></div>
+
+		<!-- <footer class="footer">	
+			<div class="footer-inner">
+				<div class="foot-in container">
+				<div class="foot ">
+					<img src="img/logo-white.png">
+				</div>
+				<div class="footer-link">
+					<a href="">help</a>
+					<a href="">terms and condition</a>
+					<a href="">privacy policy</a>
+				</div>
+				</div>
+			</div>
+
+
+		</footer>
+	-->
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script type="text/javascript" src="bower_components/angular-ui-router/release/stateEvents.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-material/angular-material.js"></script>
+<script type="text/javascript" src="bower_components/angular-animate/angular-animate.js"></script>
+<script type="text/javascript" src="bower_components/angular-aria/angular-aria.js"></script>
+
+
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="component/directive/main.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="vendor.js"></script>
+<!-- <script type="text/javascript" src="component/controller/controller.js"></script> -->
+<!-- <script type="text/javascript" src="component/service/authService.js"></script>
+<script type="text/javascript" src="component/service/service.js"></script> -->
+<!-- <script type="text/javascript" src="component/controller/factoryCtrl.js"></script> -->
+<!-- <script type="text/javascript" src="component/controller/venuesearchCtrl.js"></script> -->
+<!-- <script type="text/javascript" src="component/controller/landingpageCtrl.js"></script> -->
+<!-- <script type="text/javascript" src="component/controller/venueCtrl.js"></script> -->
+<!-- <script type="text/javascript" src="component/controller/profileCtrl.js"></script> -->
+<!-- <script type="text/javascript" src="component/directive/signup.dir.js"></script> -->
+</body>
+</html>

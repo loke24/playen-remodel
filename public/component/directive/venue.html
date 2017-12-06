@@ -1,0 +1,41 @@
+<div class="venue-main">
+	<div venue-search></div>
+	<!-- <div class="toggle-btn nextprev" ng-click="">
+		<i class="icon Bowlingball"></i>
+	</div> -->
+	<div class="venue-main-inner">
+		<div class="venue-flex-inner">
+			<div class="venue-cards " ng-repeat="flex in flexs  " >
+				<div class="venue-card-title" >
+					<div style="padding: 2%;margin: 0;    ">
+						<h4 style="font-size:15px;text-align:center;margin: 0;">{{flex.name}}</h4>
+					</div>
+					<div class="venue-card-info">
+						<a href=""><p style="color: gray;font-size: 17px;">{{flex.venue}}</p></a>
+					</div>
+				</div>
+				<div class="venue-card-img">
+					<div class="venue-card-img-main" style="background-image:url('{{flex.imageUrl}}')"></div>
+				</div>
+				<div class="venue-card-empty-space"></div>
+				
+
+			</div>
+		</div>
+		<div class="map"></div>
+		
+
+
+	</div>
+		<div class="pagination-main" style="display:flex">
+			<div class="pagination-inner" >
+			<div class="nextprev"  ng-class="prevPageDisabled()">
+				<div class="nextprevbtn prevPage" ng-click="previousPage()"></div>
+			</div>
+				<div id="pagination-page"  class="pagination-inner-no " ng-repeat="num in pageSize" ng-class="pageActive($index)"><span>{{num}}</span></div>
+			<div class="nextprev" >
+				<div class="nextprevbtn nextPage" ng-click="nextPage()"></div>
+			</div>
+			</div>
+		</div>
+</div>

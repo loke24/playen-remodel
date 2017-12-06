@@ -1,0 +1,166 @@
+<div class="profile-main">
+  	<div class="profile-main-inner">
+  		<div class="profile-navigation ">
+  			<div class="profile-navigation-inner container">
+  			<div class="profile-navigation-tabs">
+  				<div id="tags " class="tabs"  ng-click="edit()" index="1" ng-class="activetabs(1)" >
+  					<span>edit profile</span>
+  				</div>
+  				<div id="tags" class="tabs"  ng-click="activity()"  ng-class="activetabs(2)">
+  					<span>My Activity</span>
+  				</div>
+  				<div id="tags" class="tabs"  ng-click="gamepasses()"  ng-class="activetabs(3)">
+  					<span>Game passes</span>
+  				</div>
+  				<div id="tags" class="tabs"  ng-click="email()"  ng-class="activetabs(4)">
+  					<span>Email</span>
+  				</div>
+  				<div id="tags" class="tabs"  ng-click="invoice()"  ng-class="activetabs(5)">
+  					<span>Invoice</span>
+  				</div>
+  			</div>
+  			<div class="profile-navigation-header">
+  				<span>lokesh</span>
+  			</div>
+  			</div>
+  		</div>
+      <div class="profile-content-main container">
+  		<div  class="profile-content-details " ng-show="profileEdit" >
+  			<div class="profile-content-details-inner">
+  				<div class="profile-edit-information">
+            <div class="profile-edit-information-inner" style="
+    position: relative;">
+  					<div class="profile-title-information-inner">
+  						<div class="edit-information">
+  							<h4><span>EDIT INFORMATION</span></h4>
+  						</div>
+  						<div class="edit-date">
+  							<span>last updated april 4th, 2017</span>
+  						</div>
+
+  					</div>
+  					<div class="profile-edit-inputs">
+  						<div class="input-space">
+	  					 <md-input-container class="customInput md-block" flex-gt-sm>
+									<label id="label">Firstname</label>
+									<input empty-input ng-value="lokesh" ng-model="update.firstname"> 
+						</md-input-container>
+						<md-input-container class="customInput md-block" flex-gt-sm>
+									<label id="label">Lastname</label>
+									<input empty-input ng-model="update.lastname"> 
+						</md-input-container>
+
+  						</div>
+  						<div class="input-space">
+	  					 <md-input-container class="customInput md-block" flex-gt-sm>
+									<label id="label">Email</label>
+									<input empty-input ng-model="update.email"> 
+						</md-input-container>
+						<md-input-container class="customInput md-block" flex-gt-sm>
+									<label id="label">Phone</label>
+									<input empty-input ng-model="update.phone"> 
+						</md-input-container>
+
+  						</div>
+  						<div class="input-space">
+  						<md-input-container class="customInput md-block" flex-gt-sm>
+								<label id="label">Street Adress</label>
+								<input empty-input ng-model="update.address"> 
+						</md-input-container>
+						<md-input-container class="customInput md-block" flex-gt-sm>
+								<label id="label">Pincode</label>
+								<input empty-input ng-model="update.pincode"> 
+						</md-input-container>
+						</div>
+						<div class="input-space">
+  						<md-input-container class="customInput md-block" flex-gt-sm>
+								<label id="label">City</label>
+								<input empty-input ng-model="update.city"> 
+						</md-input-container>
+						</div>
+					
+					
+  					</div>
+  				</div>
+            <div class="profile-password-update" style="
+    position: relative;">
+                <div class="profile-title-information-inner">
+                  <div class="edit-information">
+                       <h4><span>Password</span></h4>
+                  </div>
+                 </div>
+                 <div class="profile-edit-inputs">
+                    <div class="input-space">
+                     <md-input-container class="customInput md-block" flex-gt-sm>
+                        <label id="label">Old Password</label>
+                        <input empty-input ng-model="update.oldpwd"> 
+                    </md-input-container>
+                    <md-input-container class="customInput md-block" flex-gt-sm>
+                        <label id="label">New Password</label>
+                        <input empty-input ng-model="update.newpwd"> 
+                     </md-input-container>
+                     <md-input-container class="customInput md-block" flex-gt-sm>
+                        <label id="label">New Password</label>
+                        <input empty-input ng-model="update.newconfirmpwd"> 
+                     </md-input-container>
+                    
+                  </div>
+                  </div>
+              </div>
+            </div>
+            <div class="signup-buttons" style="margin: 0 416px;">
+        <div class="book-btn">
+          <button class="btn book_btn" style="width:180px" ng-click="saveChange(update)">
+            <h2 style="margin:0;font-size: 18px;">Save Change</h2>
+          </button>
+        </div>
+      </div>
+          </div>
+
+
+  			</div>
+
+        <div class="activity-main" ng-show="myactivity">
+          <div class="activity-main-inner toggle-text">
+            <div class="activity-headers">
+              <div class="header-content">
+                <span class="header-inner">Reservation</span>
+                <span class="header-inner">Lessons</span>
+              </div>
+
+            </div>
+           <div class="activity-content-main toggle-all" >
+              <div class="activity-toogle">
+                <div class="toggle-content">Future</div>
+                <div class="toggle-content">past</div>
+              </div>
+           </div>
+          </div>
+        </div>
+
+          <div class="gamepasses-main toggle-all"  ng-show="mygamepasses">
+            <div class="game-passes-inner toggle-text" style="display: flex;">
+              <div class="activity-toogle">
+                <div class="toggle-content">valid</div>
+                <div class="toggle-content">expired</div>
+              </div>
+            </div>
+          </div>
+           <div class="invoice-main toggle-all " ng-show="myinvoice">
+            <div class="invoice-inner toggle-text" style="display: flex;">
+              <div class="activity-toogle">
+                <div class="toggle-content">Paid</div>
+                <div class="toggle-content">Unpaid</div>
+              </div>
+            </div>
+          </div>
+          <div class="email-main" ng-show="myemail">
+
+          </div>
+
+        </div>
+
+
+  		</div>
+  	</div>
+</div>

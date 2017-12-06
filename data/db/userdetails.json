@@ -1,0 +1,98 @@
+{
+    "_id" : ObjectId("59fc9a1361648c05a81f2935"),
+    "users" : [ 
+        {
+            "_id" : ObjectId("5a0c1e362654721710d91511"),
+            "userdetail" : [ 
+                {
+                    "password" : "$2a$10$AfJnhVn2QV3zFW/mX8ClcOzGjEdKWrHFDgey48pvC2eXBgKxi/Rha",
+                    "email" : "kok",
+                    "lastname" : "koko",
+                    "firstname" : "lokeupdatedcko",
+                    "_id" : ObjectId("5a0c1e362654721710d91512"),
+                    "phone" : "okok",
+                    "address" : "okok",
+                    "pincode" : "okok",
+                    "city" : "okok"
+                }
+            ]
+        }, 
+        {
+            "_id" : ObjectId("5a0c204c2654721710d91513"),
+            "userdetail" : [ 
+                {
+                    "password" : "$2a$10$syVPErLPI4fZE2W3mBlHRO/wK.G5Vl4fen05P7ArdG25jFo.ITNDi",
+                    "email" : null,
+                    "lastname" : "loks",
+                    "firstname" : "loksss",
+                    "_id" : ObjectId("5a0c204c2654721710d91514"),
+                    "phone" : "loks",
+                    "address" : "loks",
+                    "pincode" : "loks",
+                    "city" : "loks"
+                }
+            ]
+        }, 
+        {
+            "_id" : ObjectId("5a0c322c9b8b3203dc5be2b9"),
+            "userdetail" : [ 
+                {
+                    "password" : "$2a$10$JNix9HqvAgFD9ORhCXLbHe1vJaFT/LJ.o6UcTKKizYbfvb1ylS4pi",
+                    "email" : "oke",
+                    "lastname" : "loke",
+                    "firstname" : "loke",
+                    "_id" : ObjectId("5a0c322c9b8b3203dc5be2ba")
+                }
+            ]
+        }, 
+        {
+            "_id" : ObjectId("5a0c32659b8b3203dc5be2bb"),
+            "userdetail" : [ 
+                {
+                    "password" : "$2a$10$FQkgoNzlv/O7Rcflh9nFAuybsCEkrmQGhWrAHR1lXRWXE3mFSmL4q",
+                    "email" : "lokenewupdaffff",
+                    "lastname" : null,
+                    "firstname" : null,
+                    "_id" : ObjectId("5a0c32659b8b3203dc5be2bc"),
+                    "phone" : null,
+                    "address" : null,
+                    "pincode" : null,
+                    "city" : null
+                }
+            ]
+        }, 
+        {
+            "_id" : ObjectId("5a0c6f7cef31071efc89f3c5"),
+            "userdetail" : [ 
+                {
+                    "password" : "$2a$10$BzAipEoLmb4EMCHZzH7/TuiKf8kA3kcygwTgVMnWizXzncFrqtgTy",
+                    "email" : "loke",
+                    "lastname" : "loke",
+                    "firstname" : "loke",
+                    "_id" : ObjectId("5a0c6f7cef31071efc89f3c6"),
+                    "phone" : "loko7777",
+                    "address" : "ookokoko",
+                    "pincode" : "koko",
+                    "city" : "kokokokokok"
+                }
+            ]
+        }, 
+        {
+            "_id" : ObjectId("5a0c7be50afd701cec3619e8"),
+            "userdetail" : [ 
+                {
+                    "password" : "$2a$10$wPER7feJ9Y8h36LNn6g3R./0Jva8uX8RclCAbKbzz/CmeMhzJgXnu",
+                    "email" : "new",
+                    "lastname" : "new",
+                    "firstname" : "new",
+                    "_id" : ObjectId("5a0c7be50afd701cec3619e9"),
+                    "phone" : "new",
+                    "address" : "new",
+                    "pincode" : "newddd",
+                    "city" : "new"
+                }
+            ]
+        }
+    ],
+    "__v" : 0
+}

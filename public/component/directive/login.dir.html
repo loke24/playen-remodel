@@ -1,0 +1,37 @@
+<div class="modal-main">
+	<div class="modal-inner">
+		<div class="left-side-content" style="height: 470px;">
+			<div class="sign-img"></div>
+		</div>
+		<div class="right-side-content">
+			<div class="window-close fa fa-window-close" ng-click="closeModal()"></div>
+			<div class="right-side-input">
+					<h1 style="font-size:30px;color:#0e76f7">Sign In</h1>
+					<md-input-container class="customInput md-block" flex-gt-sm>
+								<label id="label">Email</label>
+								<input empty-input ng-model="userlogin.email"> 
+					</md-input-container>
+					<md-input-container class="customInput md-block" flex-gt-sm>
+							<label id="label">Password</label>
+							<input empty-input ng-model="userlogin.password"> 
+					</md-input-container>
+			</div>
+			<div class="signup-buttons" style="margin: 0 167px;">
+				<div class="book-btn">
+					<button class="btn book_btn" style="width:180px" ng-click="login()">
+						<h2 style="margin:0;font-size: 18px;">log in</h2>
+					</button>
+				</div>
+			</div>
+			<div class="bottom-content">
+				<div class="links fb-link">
+					<a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true" style="font-size: 21px;"><p style="margin-left: 8px;display:inline;">LOGIN WITH FACEBOOK</p></i></a>
+				</div>
+				<div class="links already">
+					<p>Don’t have an account? <a href="" ng-click="signup()">SIGN UP</a></p>
+					<P><a href="">Forget password?</a></P>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

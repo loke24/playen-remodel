@@ -1,0 +1,35 @@
+{
+  "name": "playven",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^0.4.3",
+    "angularjs": "0.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "hooker": "^0.2.3",
+    "jquery": "^3.2.1",
+    "jwt-simple": "^0.5.1",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.11.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.1.0"
+  }
+}

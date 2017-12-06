@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?k1xyc4');
+  src:  url('fonts/icomoon.eot?k1xyc4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?k1xyc4') format('truetype'),
+    url('fonts/icomoon.woff?k1xyc4') format('woff'),
+    url('fonts/icomoon.svg?k1xyc4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-grid:before {
+  content: "\e900";
+}
+.icon-location:before {
+  content: "\e901";
+}
+.icon-time:before {
+  content: "\e906";
+}
+.icon-arrow-hover .path1:before {
+  content: "\e902";
+  color: rgb(14, 118, 247);
+}
+.icon-arrow-hover .path2:before {
+  content: "\e903";
+  margin-left: -0.9443359375em;
+  color: rgb(255, 255, 255);
+}
+.icon-arrow-main .path1:before {
+  content: "\e904";
+  color: rgb(204, 209, 216);
+}
+.icon-arrow-main .path2:before {
+  content: "\e905";
+  margin-left: -0.9462890625em;
+  color: rgb(255, 255, 255);
+}
+.icon-office:before {
+  content: "\e907";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-hour-glass:before {
+  content: "\e979";
+}
